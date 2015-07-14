@@ -7,7 +7,16 @@ body
 	height 100vh
 	margin 0
 	overflow hidden
-	
+	font-family arial
+img
+	max-width 100%
+	height auto
+	display inline-block
+.logo
+	text-align center
+	img
+		max-width 80%
+		padding-top 20%
 section 
 	height 100vh
 	
@@ -43,15 +52,32 @@ section
 	
 #home
 	position absolute
-	background-color red
+	background-color #f4f4f4
 	z-index 99
 	top 0
 	width 100%
 	transition 0.2s ease
 	
-	
-
-
+.head
+	background-image url(../img/head.jpg)
+	height 30%
+	background-size cover
+	color white
+	.wrape
+		padding 2em
+.boxitems
+	display flex
+	flex-flow wrap
+	justify-content space-between
+	.content-item
+		width 50%
+		text-align center
+		img
+			max-width 70%
+		p
+			margin-top 0
+			font-weight 100
+			color gray
 
 
 
