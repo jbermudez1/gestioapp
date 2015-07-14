@@ -1,0 +1,59 @@
+@import "nib"
+body
+	background-image url(../img/bg.jpg)
+	background-size cover
+	background-repeat no-repeat
+	background-position bottom
+	height 100vh
+	margin 0
+	overflow hidden
+	
+section 
+	height 100vh
+	
+#login
+	text-align center
+	display flex
+	flex-direction column
+	height 100vh
+	.logo, loginForm
+		justify-content space-between
+		height 50%
+	input
+		width 70%
+		font-size 1.2em
+		padding 0.5em
+		background-color rgba(255, 255, 255, 0.3)
+		border 0
+		font-weight 100
+	.entrar
+		background-color #ff5252
+		border 0
+		width 70%
+		font-size 1.2em
+		padding 0.4em
+		color white
+		font-weight 100
+		box-shadow 0px 0px 5px black
+		&:hover
+			color white
+// HOME
+.offSet
+	transform translate(100%,0px)
+	
+#home
+	position absolute
+	background-color red
+	z-index 99
+	top 0
+	width 100%
+	transition 0.2s ease
+	
+	
+
+
+
+
+
+
+

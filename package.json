@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"stylus": "stylus -w -c -u nib lib/stylus/stylebase.styl -o public/css"
+	}
+}
